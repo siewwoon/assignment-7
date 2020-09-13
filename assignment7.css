@@ -30,30 +30,43 @@ span.note {
     font-size: medium;
     }
 
-tr:nth-child(odd) {
+.tablewithnostyling {
+    width:80%;
+}    
+
+#tablewithzebrastyle {
+    width:80%;
+    border: 2px solid black;
+}
+
+#tablewithzebrastyle tr:nth-child(odd) {
     background-color: #f2f2f2;}
+
+
+#tablewithbackgroundpicture{
+background-image: url(backgroundimage.jpg);
 }
 
 .container {
     position: relative;
-    text-align: center;
+    text-align: left;
     color: black;
   }
   
   
-  .top-left {
+  .topleft {
     position: absolute;
-    top: 190px;
+    top: 20px;
     left: 16px;
   }
   
-  .top-right {
+  .topright {
     position: absolute;
-    top: 190px;
+    top: 20px;
     right: 1300px;
   }
   
-  .centered {
+  .center {
     position: absolute;
     top: 50%;
     left: 15%;
