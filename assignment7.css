@@ -1,0 +1,61 @@
+h1 {
+    color:blueviolet
+}
+    
+span.note {
+    font-size:150%; 
+    color:crimson
+    }
+
+    a:link {
+        color: red;
+      }
+      
+      a:visited {
+        color: green;
+      }
+      
+      a:hover {
+        color: blue;
+      }
+      
+
+#para1 {
+    color:darkgreen;
+    font-size:x-large;
+    }
+
+#para2 {
+    color:darkolivegreen;
+    font-size: medium;
+    }
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;}
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  .top-left {
+    position: absolute;
+    top: 190px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 190px;
+    right: 1300px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
